@@ -1,4 +1,4 @@
-<h1 align="left">UEDumper - Unreal Engine Dumper<br /><img src="UEDumper.png?raw=true" alt="Logo" height="250px" align="right" /></h1>
+<h1 align="left">UEDumper - Unreal Engine Dumper - iOS<br /><img src="UEDumper.png?raw=true" alt="Logo" height="250px" align="right" /></h1>
 
 <p align="left">
   <img src="https://img.shields.io/github/license/Spuckwaffel/UEDumper" alt="License">
@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/github/forks/Spuckwaffel/UEDumper" alt="Forks">
   <img src="https://komarev.com/ghpvc/?username=UEDumper&label=Views" alt="Views">
 </p>
-<p>UEDumper is a all in one Unreal Engine Dumper that supports Unreal Engine 4.19 - Unreal Engine 5.2.0 and a live editor, where you can view the generated SDK at runtime and modify the games' memory.</p>
+<p>This is an attempt to port UEDumper from a Windows environment to run on Apple iOS, is a all in one Unreal Engine Dumper that supports Unreal Engine 4.19 - Unreal Engine 5.2.0 and a live editor, where you can view the generated SDK at runtime and modify the games' memory.</p>
 <p><a href="#features">Features</a> &bull; 
   <a href="#getting-started">Getting Started</a> &bull; 
   <a href="#support-for-your-game">Your Game</a> &bull; 
@@ -18,17 +18,17 @@
 </p>
 <h2>Features</h2>
 <ul>
-<li>Rich GUI with the help of the ImGui library.</li>
+<li>Run on iOS on jailbreak, using TrollStore to allow cross-process memory scanning </li>
 <li>Unreal Engine 4.19 - 5.2.0 support without having to modify any internal structures of the code.</li>
 <li>SDK generator and editor.</li>
 <li>New MDK type generator.</li>
 <li>Live editor to read/write the games' memory.</li>
 <li>Saving the SDK and MDK to use it in your C++ project.</li>
-<li>Well documented source code for the Engine.</li>
+<li> Well-documented source code for the Engine.</li>
 <li>Simple Definitions that change the Engine's behavior.</li>
-<li>Support for Dumpspace.</li>
 </ul>
 <h2>Getting Started</h2>
+<p>THIS PROJECT IS CURRENTLY NOT WORKING FOR iOS YET. 22 02 2024.</p>
 <p>This project DOES NOT work out of the box! To support your game, you still have to reverse it on your own to find the information that is stated below.</p>
 <p><strong>Please download the latest release and not the master branch as it might contain unstable code!</strong></p>
 <ol>
